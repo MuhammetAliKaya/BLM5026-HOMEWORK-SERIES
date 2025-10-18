@@ -18,12 +18,12 @@ The goal of the Traveling Salesman Problem (TSP) is to find the shortest possibl
 
 The problem is modeled as a fully connected graph where nodes represent cities and edge weights represent the Euclidean distance between them.
 
-- [cite_start]The graph is generated with a specified number of nodes placed randomly in a 2D area[cite: 6].
-- [cite_start]To ensure the experiments are repeatable, the random generation process is based on a fixed seed.
+- The graph is generated with a specified number of nodes placed randomly in a 2D area.
+- To ensure the experiments are repeatable, the random generation process is based on a fixed seed.
 
 ### 2. Heuristic Used: Nearest Neighbor
 
-[cite_start]To find a solution, we implemented a simple and intuitive greedy algorithm known as the **Nearest Neighbor** heuristic. The algorithm works as follows:
+To find a solution, we implemented a simple and intuitive greedy algorithm known as the **Nearest Neighbor** heuristic. The algorithm works as follows:
 
 1.  Start at an arbitrary node (city).
 2.  From the current node, move to the nearest unvisited node.
@@ -32,7 +32,7 @@ The problem is modeled as a fully connected graph where nodes represent cities a
 
 ### 3. Visualization
 
-[cite_start]The final tour is visualized using the `matplotlib` library. The output shows all the nodes and the path taken by the salesman.
+The final tour is visualized using the `matplotlib` library. The output shows all the nodes and the path taken by the salesman.
 
 ## How to Run
 
