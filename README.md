@@ -46,6 +46,6 @@ The final tour is visualized using the `matplotlib` library. The output shows al
 
 Here is a screenshot of a generated tour for 15 cities:
 
-## ![TSP Tour Visualization](ss1.png)
+## ![TSP Tour Visualization](hw1.png)
 
 ## -------------------------------------------
