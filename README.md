@@ -2,8 +2,6 @@
 
 ## HOMEWORK - 1 -
 
-## -------------------------------------------
-
 # TSP Solver using Nearest Neighbor Heuristic
 
 This project is an implementation of a solution for the Traveling Salesman Problem (TSP) for Assignment 1 of the "AI in Computer Games" course. It generates a random set of points, applies the Nearest Neighbor heuristic to find a short tour, and visualizes the result.
@@ -39,7 +37,11 @@ The final tour is visualized using the `matplotlib` library. The output shows al
 1.  Ensure you have Python and `matplotlib` installed.
 2.  Run the script from your terminal:
     ```bash
-    python your_script_name.py
+    python hw1.py
+    ```
+    or
+    ```bash
+    python hw1WithOutNetworkx.py
     ```
 
 ## Example Output
@@ -47,5 +49,3 @@ The final tour is visualized using the `matplotlib` library. The output shows al
 Here is a screenshot of a generated tour for 15 cities:
 
 ## ![TSP Tour Visualization](hw1.png)
-
-## -------------------------------------------
